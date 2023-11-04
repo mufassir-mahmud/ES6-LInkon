@@ -18,3 +18,10 @@ const arr = [11,22,33];
 arr.forEach(x => console.log(x));
 const fruits = ['mango', 'orange', 'banana'];
 fruits.forEach(y => console.log(y))
+
+const numbers = [2,4,6];
+let sum = 0;
+numbers.forEach(item =>{
+    sum += item;
+    console.log(item,sum);
+} );
