@@ -45,3 +45,6 @@ sum()
 
 const num = x => console.log(x);
 num(5)
+
+const showNumber = x => Math.pow(x,2);
+console.log(showNumber(2));
