@@ -25,3 +25,4 @@ numbers.forEach(item =>{
     sum += item;
     console.log(item,sum);
 } );
+
